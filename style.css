@@ -50,8 +50,8 @@ header {
 } 
 
 .input-wrapper {
-    width: 241px;
-    height: 4.0rem;
+    width: 250px;
+    height: 4.2rem;
     display: flex;
     align-items: center;
     
@@ -59,7 +59,7 @@ header {
 
     padding: 1.4rem 1.2rem 1.2rem 1.6rem;
     
-    margin-right: 1.4rem;   
+    margin-right: 1.0rem;   
     line-height: 100%;
         
     border-radius: 4px;
@@ -70,7 +70,7 @@ header {
 
 .input-wrapper label { 
     
-    width: 241px;
+    width: 232px;
     height: 4.0rem;
     font-family: "Mulish", sans-serif;
     font-size: 1.6rem;
@@ -90,7 +90,6 @@ header {
 
 .input-wrapper input::placeholder { 
    font-family: Mulish, sans-serif; 
-   width: 100%;
 } 
 
 .avatar { 
