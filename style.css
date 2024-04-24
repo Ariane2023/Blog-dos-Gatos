@@ -249,30 +249,20 @@ footer p {
 } 
 
 @media (min-width: 1024px) {
-    * { 
-        margin: 0; 
-        padding: 0; 
-        box-sizing: border-box; 
-        width: 100%vh; 
-    } 
-
     header { 
         display: flex; 
         width: 100%; 
         height: 72px; 
         padding: 112px auto auto 112px; 
-        justify-content: space-between; 
-        align-items: center; 
+        align-items: center;
+        justify-content: center; 
     } 
-   
-  
-    .gato {
-        width: 100vw;
-    }
 
+    .input-wrapper { width: 1137px;   }
+  
     main img { 
 
-        width: 803px; 
+        width: 802px; 
 
         height: 405px; 
 
@@ -281,7 +271,32 @@ footer p {
         margin: 10px 0px 0 32px; 
 
         border-radius: 5px; 
+    }
 
+    main .icon-up img {
+        width: 16px;
+        height: 16px;
+    } 
+
+    main .icon-down img {
+        width: 16px;
+        height: 16px;
+    } 
+
+    .buttons {
+        display: flex;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        border-radius: 999px;
+        padding: 12px;
+
+    }
+
+    .buttons button + button {
+        margin-left: 1.2rem;
     }
     
     main p {
