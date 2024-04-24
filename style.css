@@ -321,20 +321,6 @@ footer p {
         
     }
 
-    .cabeçalho { 
-
-        display: flex;
-        align-items: center;
-        place-items: center;
-                       
-        padding: 20px; 
-        padding-top: 8px;
-        padding-bottom: 9px;
-        
-    
-        gap: 12px; 
-    } 
-
     .cabeçalho h1 {
         font-family: "Mulish", sans-serif;
         font-size: 24px;
@@ -348,16 +334,7 @@ footer p {
       justify-content: space-between;
     }*/
   
-    fieldset {
-      padding: 0;
-      
-    }
-  
-    fieldset h1 {
-      line-height: 70%;
-    }
-
-    .container h3 {
+    .details h3 {
         color: var(--Platform-Aliases-Shape-principal, #202024);
         
         font-family: Mulish;
