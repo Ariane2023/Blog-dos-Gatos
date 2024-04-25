@@ -158,6 +158,8 @@ main p {
     width: 40px; 
     height: 40px; 
 
+    border: none;
+
     border-radius: 100%; 
     background: var(--Brand-Colors-Explorer-dark); 
 } 
@@ -281,15 +283,15 @@ footer p {
     main .icon-up img {
         width: 16px;
         height: 12px;
-        
-                
+
+        margin-top: 0%;
     } 
 
     main .icon-down img {
         width: 16px;
         height: 12px;
-        
-        
+
+        margin-top: 0%;
     } 
 
     .structure {
