@@ -259,44 +259,69 @@ footer p {
     } 
 
     .input-wrapper { width: 1137px;   }
-  
+
+    .gato {
+        width: 802px;
+        height: 405px;
+    
+        border-radius: 5px;
+    }  
     main img { 
 
-        width: 802px; 
-
-        height: 405px; 
+        width: 100%; 
 
         border: 0; 
 
-        margin: 10px 0px 0 32px; 
+        margin: 10px 0px 0 3px; 
 
         border-radius: 5px; 
-    }
-
+    }  
+    
+  
     main .icon-up img {
         width: 16px;
-        height: 16px;
+        height: 12px;
+        
+                
     } 
 
     main .icon-down img {
         width: 16px;
-        height: 16px;
+        height: 12px;
+        
+        
     } 
 
-    .buttons {
-        display: flex;
-        padding: 12px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+    .structure {
+        padding: 3rem 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 50%);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3rem 3rem;
+        height: 100vh;
 
-        border-radius: 999px;
-        padding: 12px;
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
 
     }
 
-    .buttons button + button {
-        margin-left: 1.2rem;
+    .cabeçalho {
+        width: 803px;
+        padding-top: 32px;
+        
+        display: flex;
+        place-items: center;
+        justify-content: space-between;
+        gap: 0.8rem;
+       
+        
+    }
+
+    .cabeçalho h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 160%;
     }
     
     main p {
@@ -306,33 +331,10 @@ footer p {
         font-style: both;
         font-weight: 400;
         line-height: 160%;
-        color: var(--Platform-Aliases-Background); 
-    
-        margin: 10px 0px 0 32px;
-    }
-
-    .structure {
-        padding: 3rem 3rem 0;
-        display: grid;
-        grid-template-columns: repeat(3, 50%);
-        grid-template-rows: repeat(3, 500px);
-       
-        gap: 3rem 3rem;        
+        color: var(--Platform-Aliases-Background);
         
     }
-
-    .cabeçalho h1 {
-        font-family: "Mulish", sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 160%;
-    }
-  
-    /*.cabecalho-artigo {
-      flex-direction: row;
-      justify-content: space-between;
-    }*/
+    
   
     .details h3 {
         color: var(--Platform-Aliases-Shape-principal, #202024);
@@ -355,6 +357,26 @@ footer p {
         font-weight: 400;
         line-height: 160%;
     }
+
+    fieldset {
+        margin-top: 5px;
+        padding-top: 0;
+
+        grid-row: 1/2;
+        grid-column: 2/4;
+    }
+
+    footer {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0; 
+
+        margin-top: 270px;
+    }
+
 
 }
 
