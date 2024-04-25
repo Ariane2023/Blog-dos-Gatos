@@ -325,3 +325,65 @@ footer p {
        
         
     }
+    .cabeçalho h1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 160%;
+    }
+    
+    main p {
+        width: 800px;
+        font-family: "Mulish", sans-serif;
+        font-size: 1.6rem;
+        font-style: both;
+        font-weight: 400;
+        line-height: 160%;
+        color: var(--Platform-Aliases-Background);
+        
+    }
+    
+    .details h3 {
+        color: var(--Platform-Aliases-Shape-principal, #202024);
+        
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: both;
+        font-weight: 700;
+        line-height: 160%;
+    }
+
+    .tags span {
+        color: var(--Platform-Aliases-Background);
+
+        width: 217px;
+
+        font-family: "Mulish", "sans-serif";
+        font-size: 14px;
+        font-style: both;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    fieldset {
+        margin-top: 5px;
+        padding-top: 0;
+
+        grid-row: 1/2;
+        grid-column: 2/4;
+    }
+
+    footer {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.0rem;
+        flex-shrink: 0; 
+
+        margin-top: 10.rem;
+    }
+
+   
+}
+
+
