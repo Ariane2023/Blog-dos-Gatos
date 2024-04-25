@@ -125,7 +125,7 @@ main p {
     text-align: justify;
     font-weight: 400; 
     line-height: 160%; 
-    font-size: 16px; 
+    font-size: 1.6rem; 
     color: var(--Platform-Aliases-Background); 
 
     margin: 22px;
@@ -255,7 +255,7 @@ footer p {
         display: flex; 
         width: 100%; 
         height: 72px; 
-        padding: 112px auto auto 112px; 
+        padding: 7rem auto auto 7rem; 
         align-items: center;
         justify-content: center; 
     } 
@@ -281,7 +281,7 @@ footer p {
     
     main .icon-up img {
         width: 16px;
-        height: 12px;
+        height: 16px;
 
         border:0;
         margin-top: 0%;               
@@ -289,25 +289,28 @@ footer p {
 
     main .icon-down img {
         width: 16px;
-        height: 12px;
+        height: 16px;
 
         border: 0;
         margin-top: 0%;
     } 
 
     .structure {
+
+        width: 1137px;
+        height: 900px;
         
         display: grid;
         grid-template-columns: repeat(3, 50%);
         grid-template-rows: repeat(3, 1fr);
         gap: 3rem 3rem;
-        height: 100vh;
+        
 
         margin: 44px 109px ;
 
         display: flex;
         align-items: flex-start;
-        gap: 0px;
+        gap: 3.2rem;
 
     }
 
@@ -322,68 +325,3 @@ footer p {
        
         
     }
-
-    .cabeçalho h1 {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 160%;
-    }
-    
-    main p {
-        width: 800px;
-        font-family: "Mulish", sans-serif;
-        font-size: 16px;
-        font-style: both;
-        font-weight: 400;
-        line-height: 160%;
-        color: var(--Platform-Aliases-Background);
-        
-    }
-    
-    .details h3 {
-        color: var(--Platform-Aliases-Shape-principal, #202024);
-        
-        font-family: Mulish;
-        font-size: 18px;
-        font-style: both;
-        font-weight: 700;
-        line-height: 160%;
-    }
-
-    .tags span {
-        color: var(--Platform-Aliases-Background);
-
-        width: 217px;
-
-        font-family: "Mulish", "sans-serif";
-        font-size: 14px;
-        font-style: both;
-        font-weight: 400;
-        line-height: 160%;
-    }
-
-    fieldset {
-        margin-top: 5px;
-        padding-top: 0;
-
-        grid-row: 1/2;
-        grid-column: 2/4;
-    }
-
-    footer {        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-shrink: 0; 
-
-        margin-top: 270px;
-    }
-
-   
-}
-
-
-
-
