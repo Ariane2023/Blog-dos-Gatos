@@ -69,7 +69,6 @@ header {
 }
 
 .input-wrapper label { 
-    
     width: 232px;
     height: 4.0rem;
     font-family: "Mulish", sans-serif;
@@ -89,7 +88,7 @@ header {
 } 
 
 .input-wrapper input::placeholder { 
-   font-family: Mulish, sans-serif; 
+   font-family: "Mulish", sans-serif; 
 } 
 
 .avatar { 
@@ -139,13 +138,14 @@ main p {
     padding: 22px; 
     padding-top: 8px;
     padding-bottom: 9px; 
+    
 
     gap: 12px; 
 } 
 
-.buttons button + button {
+/*.buttons button + button {
     margin-left: 1.2rem;
-}
+}*/
 
 .icon-up { 
     width: 1.6rem;
@@ -279,32 +279,35 @@ footer p {
         border-radius: 5px; 
     }  
     
-  
     main .icon-up img {
         width: 16px;
         height: 12px;
 
-        margin-top: 0%;
+        border:0;
+        margin-top: 0%;               
     } 
 
     main .icon-down img {
         width: 16px;
         height: 12px;
 
+        border: 0;
         margin-top: 0%;
     } 
 
     .structure {
-        padding: 3rem 3rem 0;
+        
         display: grid;
         grid-template-columns: repeat(3, 50%);
         grid-template-rows: repeat(3, 1fr);
         gap: 3rem 3rem;
         height: 100vh;
 
+        margin: 44px 109px ;
+
         display: flex;
         align-items: flex-start;
-        gap: 32px;
+        gap: 0px;
 
     }
 
@@ -337,7 +340,6 @@ footer p {
         
     }
     
-  
     .details h3 {
         color: var(--Platform-Aliases-Shape-principal, #202024);
         
@@ -379,7 +381,9 @@ footer p {
         margin-top: 270px;
     }
 
-
+   
 }
+
+
 
 
