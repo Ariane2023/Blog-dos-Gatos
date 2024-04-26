@@ -310,7 +310,7 @@ footer p {
 
         display: flex;
         align-items: flex-start;
-        gap: 3.2rem;
+        gap: .2rem;
 
     }
 
@@ -353,8 +353,6 @@ footer p {
 
     .tags span {
         color: var(--Platform-Aliases-Background);
-
-        width: 21.7rem;
 
         font-family: "Mulish", "sans-serif";
         font-size: 1.4rem;
