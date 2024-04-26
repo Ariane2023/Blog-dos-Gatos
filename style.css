@@ -29,9 +29,9 @@ html, body, main, input, fieldset { font-family: "Mulish", sans-serif;}
 header {
     display: flex;
     align-items: center;
-    width: 430px;
-    height: 72px;
-    padding: 28px;
+    width: 43.0rem;
+    height: 7.2rem;
+    padding: 2.8rem;
     align-items: center;
     gap: 20px;
 
@@ -50,7 +50,7 @@ header {
 } 
 
 .input-wrapper {
-    width: 250px;
+    width: 25.0rem;
     height: 4.2rem;
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@ header {
 }
 
 .input-wrapper label { 
-    width: 232px;
+    width: 23.2rem;
     height: 4.0rem;
     font-family: "Mulish", sans-serif;
     font-size: 1.6rem;
@@ -92,8 +92,8 @@ header {
 } 
 
 .avatar { 
-    width: 42px; 
-    height: 42px; 
+    width: 4.2rem; 
+    height: 4.2rem; 
 
     object-fit: cover; 
     border-radius: 50%;
@@ -101,46 +101,47 @@ header {
 } 
 
 .gato {
-    width: 430px;
-    height: 219px;
+    width: 43.0rem;
+    height: 21.9rem;
 
     border-radius: 5px;
 }
 main h1 { 
     color: var(--Platform-Aliases-Shape-principal);
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: 160%;
 } 
 main h1{ 
-    padding: 22px; 
+    padding: 2.2rem; 
     padding-bottom: 0px;
 }
  
 
 main p { 
-    width: 382px;
+    width: 38.2rem;
     text-align: justify;
     font-weight: 400; 
     line-height: 160%; 
     font-size: 1.6rem; 
     color: var(--Platform-Aliases-Background); 
 
-    margin: 22px;
+    margin: 2.2rem;
+
 } 
 
 .buttons { 
     display: flex;
     align-items: center;
         
-    padding: 22px; 
+    padding: 2.2rem; 
     padding-top: 8px;
     padding-bottom: 9px; 
     
 
-    gap: 12px; 
+    gap: 1.2rem; 
 } 
 
 /*.buttons button + button {
@@ -155,8 +156,8 @@ main p {
     align-items: center; 
     justify-content: center; 
 
-    width: 40px; 
-    height: 40px; 
+    width: 4.0rem; 
+    height: 4.0rem; 
 
     border: none;
 
@@ -171,8 +172,8 @@ main p {
     align-items: center; 
     justify-content: center; 
 
-    width: 40px; 
-    height: 40px; 
+    width: 4.0rem; 
+    height: 4.0rem; 
 
     border: none;
 
@@ -181,29 +182,31 @@ main p {
 } 
 
 fieldset {
-    width: 382px;
-    margin: 22px;
+    width: 38.2rem;
+    margin: 2.2rem;
     
     border: 0;
+
+    padding-bottom: 1.9rem;
 }
 
 fieldset .tags { 
     color: var(--Platform-Aliases-Background); 
     font-family: Mulish, sans-serif;
-    font-size: 14px; 
+    font-size: 1.4rem; 
     font-style: both; 
     line-height: 160%; 
     font-weight: 400; 
 } 
 
 .item { 
-    width: 430px;
+    width: 43.0rem;
 
     display: flex; 
     align-items: center; 
     text-align: justify;
     
-    padding-top: 31px; 
+    padding-top: 3.1rem; 
 
     gap: 16px; 
 }
@@ -213,7 +216,7 @@ details h3 {
 
     font-family: "Mulish", "sans-serif"; 
 
-    font-size: 1.125rem; 
+    font-size: 1.8rem; 
 
     font-style: both; 
 
@@ -225,15 +228,16 @@ details h3 {
 
 footer {
     background: var(--Brand-Colors-Explorer-dark);
-    width: 100%; 
-    height: 64px; 
-    padding: 16px; 
+    width: 43.0rem; 
+    height: 6.4rem; 
+    padding: 1.6rem; 
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    gap: 10px;
+    gap: 1.0rem;
+    
 }
 footer p { 
     color: var(--color-base-white); 
@@ -242,19 +246,19 @@ footer p {
     width: 100%;
 
     font-family: "Mulish", sans-serif; 
-    font-size: 16px; 
+    font-size: 1.6rem; 
     font-style: both; 
     font-weight: 600; 
     line-height: normal; 
 
     opacity: .7; 
-} 
+}  
 
 @media (min-width: 1024px) {
     header { 
         display: flex; 
         width: 100%; 
-        height: 72px; 
+        height: 7.2rem; 
         padding: 7rem auto auto 7rem; 
         align-items: center;
         justify-content: center; 
@@ -263,8 +267,8 @@ footer p {
     .input-wrapper { width: 1137px;   }
 
     .gato {
-        width: 802px;
-        height: 405px;
+        width: 80.2rem;
+        height: 40.5rem;
     
         border-radius: 5px;
     }  
@@ -274,22 +278,22 @@ footer p {
 
         border: 0; 
 
-        margin: 10px 0px 0 3px; 
+        margin: 1.0rem 0px 0 3px; 
 
         border-radius: 5px; 
     }  
     
     main .icon-up img {
-        width: 16px;
-        height: 16px;
+        width: 1.6rem;
+        height: 1.6rem;
 
         border:0;
         margin-top: 0%;               
     } 
 
     main .icon-down img {
-        width: 16px;
-        height: 16px;
+        width: 1.6rem;
+        height: 1.6rem;
 
         border: 0;
         margin-top: 0%;
@@ -297,8 +301,8 @@ footer p {
 
     .structure {
 
-        width: 1137px;
-        height: 900px;
+        width: 11.37rem;
+        height: 90.0rem;
         
         display: grid;
         grid-template-columns: repeat(3, 50%);
@@ -306,7 +310,7 @@ footer p {
         gap: 3rem 3rem;
         
 
-        margin: 44px 109px ;
+        margin: 4.4rem 10.9rem ;
 
         display: flex;
         align-items: flex-start;
@@ -325,6 +329,7 @@ footer p {
        
         
     }
+
     .cabeçalho h1 {
         font-size: 2.4rem;
         font-weight: 700;
@@ -346,7 +351,7 @@ footer p {
         color: var(--Platform-Aliases-Shape-principal, #202024);
         
         font-family: Mulish;
-        font-size: 18px;
+        font-size: 1.8rem;
         font-style: both;
         font-weight: 700;
         line-height: 160%;
@@ -358,7 +363,7 @@ footer p {
         width: 217px;
 
         font-family: "Mulish", "sans-serif";
-        font-size: 14px;
+        font-size: 1.4rem;
         font-style: both;
         font-weight: 400;
         line-height: 160%;
@@ -372,7 +377,8 @@ footer p {
         grid-column: 2/4;
     }
 
-    footer {        
+    footer {   
+        width: 100%;     
         display: flex;
         flex-direction: column;
         justify-content: center;
