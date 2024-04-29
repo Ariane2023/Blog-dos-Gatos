@@ -31,7 +31,7 @@ header {
     align-items: center;
     width: 43.0rem;
     height: 7.2rem;
-    padding: 2.8rem;
+    padding: 1.2rem 2.8rem;
     align-items: center;
     gap: 2.5rem;
 
@@ -188,7 +188,7 @@ fieldset {
 
 fieldset .tags { 
     color: var(--Platform-Aliases-Background); 
-    font-family: Mulish, sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 1.4rem; 
     font-style: both; 
     line-height: 160%; 
@@ -239,7 +239,8 @@ footer p {
     color: var(--color-base-white); 
     text-align: center; 
 
-    width: 100%;
+    width: 43.0rem;
+    height: 6.4rem;
 
     font-family: "Mulish", sans-serif; 
     font-size: 1.6rem; 
@@ -253,8 +254,8 @@ footer p {
 @media (min-width: 1024px) {
     header { 
         display: flex; 
-        width: 100%; 
-        height: 7.2rem; 
+        width: 144.0rem; 
+        height: 100%; 
         padding: 7rem auto auto 7rem; 
         align-items: center;
         justify-content: center; 
@@ -370,7 +371,8 @@ footer p {
     }
 
     footer {   
-        width: 100%;     
+        width: 100%;
+        height: 6.4rem;     
         display: flex;
         flex-direction: column;
         justify-content: center;
