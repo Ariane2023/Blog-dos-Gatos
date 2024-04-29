@@ -369,14 +369,14 @@ footer p {
     }
 
     footer {   
-        width: 100%;
+        width: 144.0rem;
         height: 6.4rem;     
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1.0rem;
-        flex-shrink: 0; 
+        
     }
 
    
